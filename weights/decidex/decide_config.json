@@ -1,0 +1,17 @@
+{
+  "model_name": "decidex-v1",
+  "family": "DecideX",
+  "vocab_size": 32768,
+  "d_model": 640,
+  "n_heads": 10,
+  "n_kv_heads": 2,
+  "state_layers": 3,
+  "option_layers": 1,
+  "cross_layers": 2,
+  "d_ff": 1792,
+  "late_interaction_dim": 128,
+  "max_state_len": 1024,
+  "max_opt_len": 48,
+  "max_options": 256,
+  "dropout": 0.05
+}

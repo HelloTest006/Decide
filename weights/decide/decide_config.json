@@ -1,0 +1,17 @@
+{
+  "model_name": "decide-v1",
+  "family": "Decide",
+  "vocab_size": 32768,
+  "d_model": 384,
+  "n_heads": 6,
+  "n_kv_heads": 2,
+  "state_layers": 2,
+  "option_layers": 1,
+  "cross_layers": 1,
+  "d_ff": 1024,
+  "late_interaction_dim": 96,
+  "max_state_len": 1024,
+  "max_opt_len": 48,
+  "max_options": 256,
+  "dropout": 0.05
+}
