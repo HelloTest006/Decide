@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "decide-runtime"
+version = "1.0.0"
+description = "Decide & DecideX Inference Runtime and Trained System-1 Decision Models"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+dependencies = [
+    "torch>=2.2.0",
+    "numpy>=1.24.0",
+    "safetensors>=0.4.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["decide*"]
