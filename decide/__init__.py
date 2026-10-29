@@ -13,6 +13,13 @@ from .agent import DecideAgent
 from .router import DecideRouter
 from .runtime import DecideRuntime, StructuredStateEnricher, BoundedLRUCache
 from .server import serve_runtime
+from .training import (
+    rlcd_v2_loss,
+    generate_multi_workflow_dataset,
+    collate_training_batch,
+    evaluate_model,
+    train_decide_line,
+)
 
 __version__ = "1.0.0"
 
@@ -54,6 +61,11 @@ __all__ = [
     "StructuredStateEnricher",
     "BoundedLRUCache",
     "serve_runtime",
+    "rlcd_v2_loss",
+    "generate_multi_workflow_dataset",
+    "collate_training_batch",
+    "evaluate_model",
+    "train_decide_line",
     "Router",
     "load",
     "QTYPES",
